@@ -1,0 +1,62 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Oswald', sans-serif;
+
+}
+
+
+.price-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+
+.basic{
+    background-color: rgb(43, 4, 219);
+    color: white;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 0;
+    
+  }
+
+  .price-plan{
+    flex: 1;
+    max-width: 400px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+.price{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.st{
+    list-style: none;
+    padding: 0;
+}
+
+.signup-button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(240, 142, 76);
+}
+
+
+
+@media (max-width: 1250px){
+    .price-container{
+        flex-direction: column;
+            height: 100%;
+    }
+}
+
+
